@@ -1,0 +1,20 @@
+<script type='text/javascript'>
+
+function show(id) {
+document.getElementById(id).style.display='block';
+}
+function hide(id) {
+document.getElementById(id).style.display='none';
+}
+
+</script>
+<div class="bubek">
+      <tr>
+	  <td><a onclick="show 'PHONE'); hide('player');" href="#">Телефоны</a></td>
+	  <td><a onclick="show('player'); hide('phone');" href="#">Плееры</a></td>
+     </tr>
+</div>
+<div id='content'>
+    <div id="phone" style="">Телефоны, Телефоны, Телефоны</div>
+    <div id="player" style="">Плееры, Плееры, Плееры</div>
+</div>
